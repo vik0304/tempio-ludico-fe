@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --color-red-te: oklch(0.603 0.2347 26.99);
+  --color-blue-te: oklch(0.2984 0.1079 280.46);
+  --color-brown-te: oklch(0.3032 0.0738 43.88);
+  --color-yellow-te: oklch(0.7656 0.1063 85.93);
+  --color-purple-te: oklch(0.3739 0.1384 319.9);
+}
+
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
