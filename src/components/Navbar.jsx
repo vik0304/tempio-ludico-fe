@@ -2,18 +2,20 @@ import logo from "../assets/itl_logo_tondo.png";
 
 function Navbar() {
   return (
-    <div className="flex flex-row justify-around w-screen p-4 bg-red-te">
-      <div className="hover:cursor-pointer content-center">
-        <p>Home</p>
-      </div>
-      <div className="hover:cursor-pointer content-center">
-        <p>Eventi</p>
-      </div>
-      <div className="hover:cursor-pointer content-center">
-        <p>Chi siamo</p>
-      </div>
-      <div className="hover:cursor-pointer content-center">
-        <p>Contatti</p>
+    <div className="flex flex-row justify-between w-screen p-4 bg-red-te">
+      <div className="flex flex-row justify-between">
+        <div className="hover:cursor-pointer content-center mx-3">
+          <p>Home</p>
+        </div>
+        <div className="hover:cursor-pointer content-center mx-3">
+          <p>Eventi</p>
+        </div>
+        <div className="hover:cursor-pointer content-center mx-3">
+          <p>Chi siamo</p>
+        </div>
+        <div className="hover:cursor-pointer content-center mx-3">
+          <p>Contatti</p>
+        </div>
       </div>
       <div className="hover:cursor-pointer content-center">
         <img
@@ -22,13 +24,15 @@ function Navbar() {
           className="h-12"
         />
       </div>
-      <div className="hover:cursor-pointer content-center">
-        <p>Cerca</p>
+      <div className="flex flex-row justify-between">
+        <div className="hover:cursor-pointer content-center mx-3">
+          <p>Cerca</p>
+        </div>
+        <div className="hover:cursor-pointer content-center mx-3">
+          <p>I nostri giochi</p>
+        </div>
+        <div className="hover:cursor-pointer content-center mx-3">Utente</div>
       </div>
-      <div className="hover:cursor-pointer content-center">
-        <p>I nostri giochi</p>
-      </div>
-      <div className="hover:cursor-pointer content-center">Utente</div>
     </div>
   );
 }

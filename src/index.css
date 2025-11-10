@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
+@font-face {
+  font-family: "Augustus";
+  src: url("/fonts/AUGUSTUS.ttf");
+}
 
 @theme {
   --color-red-te: oklch(0.603 0.2347 26.99);
@@ -10,6 +14,5 @@
 }
 
 body {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
+  font-family: "Augustus";
 }
