@@ -1,3 +1,5 @@
+import ExternalLinkButton from "./ExternalLinkButton";
+
 function IndexMainSection() {
   return (
     <div>
@@ -11,18 +13,20 @@ function IndexMainSection() {
         condividere la tua passione.
       </p>
       <h1>Ma come funziona il tempio ludico?</h1>
-      <div>
-        <div>
-          <p>1. Raggiungici ad una delle nostre serate.</p>
+      <div className="flex flex-row justify-between">
+        <div className="p-3 bg-red-900">
+          <p className="text-white">
+            1. Raggiungici ad una delle nostre serate.
+          </p>
         </div>
-        <div>
-          <p>2. Scegli il gioco che preferisci.</p>
+        <div className="p-3 bg-red-900">
+          <p className="text-white">2. Scegli il gioco che preferisci.</p>
         </div>
-        <div>
-          <p>3. Trova i tuoi compagni di gioco.</p>
+        <div className="p-3 bg-red-900">
+          <p className="text-white">3. Trova i tuoi compagni di gioco.</p>
         </div>
-        <div>
-          <p>4. Fai timbrare la tua tessera.</p>
+        <div className="p-3 bg-red-900">
+          <p className="text-white">4. Fai timbrare la tua tessera.</p>
         </div>
       </div>
       <h2>
@@ -30,6 +34,7 @@ function IndexMainSection() {
         pagina eventi per scoprire le prossime date e i luoghi d'incontro più
         vicini a te!
       </h2>
+      <ExternalLinkButton />
     </div>
   );
 }
