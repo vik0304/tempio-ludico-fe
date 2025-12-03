@@ -1,8 +1,9 @@
+import EventPage from "../components/EventPage";
+
 export default function Eventi() {
   return (
     <div>
-      <p>Ciao!</p>
-      {/* TODO: carosello eventi (creati tramite api) + carosello luoghi evento */}
+      <EventPage />
     </div>
   );
 }
